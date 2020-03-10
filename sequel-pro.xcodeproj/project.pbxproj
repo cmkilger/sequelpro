@@ -93,7 +93,7 @@
 		17DD52C3115074B3007D8950 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DD52C1115074B3007D8950 /* InfoPlist.strings */; };
 		17DD52C6115074CB007D8950 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DD52C4115074CB007D8950 /* Localizable.strings */; };
 		17E0937E114AE154007FC1B4 /* SPTableInfoPrintTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 17E0937D114AE154007FC1B4 /* SPTableInfoPrintTemplate.html */; };
-		17E20E0012D660C3007F75A6 /* OCMock.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 11D44DEF118F5887002AA43C /* OCMock.framework */; };
+		17E20E0012D660C3007F75A6 /* OCMock.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 11D44DEF118F5887002AA43C /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		17E641460EF01EB5001BC333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641440EF01EB5001BC333 /* main.m */; };
 		17E641560EF01EF6001BC333 /* SPCustomQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641490EF01EF6001BC333 /* SPCustomQuery.m */; };
 		17E641570EF01EF6001BC333 /* SPAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6414B0EF01EF6001BC333 /* SPAppController.m */; };
@@ -249,6 +249,7 @@
 		582E94C716839D83003459FD /* toolbar-preferences-tables.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94C616839D83003459FD /* toolbar-preferences-tables.png */; };
 		582E94F816839E83003459FD /* toolbar-preferences-network.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94F716839E83003459FD /* toolbar-preferences-network.png */; };
 		582F02311370B52600B30621 /* SPExportFileNameTokenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 582F02301370B52600B30621 /* SPExportFileNameTokenObject.m */; };
+		583A278E23F06F1000FBE97B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583A278D23F06F1000FBE97B /* Colors.xcassets */; };
 		583CA21512EC8B2200C9E763 /* SPWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 583CA21412EC8B2200C9E763 /* SPWindow.m */; };
 		584095191107CB6600260CFD /* SPAlertSheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 584095181107CB6600260CFD /* SPAlertSheets.m */; };
 		5841423F0F97E11000A34B47 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5841423E0F97E11000A34B47 /* NoodleLineNumberView.m */; };
@@ -943,6 +944,7 @@
 		582E95821684D74C003459FD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = de; path = de.lproj/SPQLPluginConnectionBundleWindowTemplate.html; sourceTree = "<group>"; };
 		582F022F1370B52600B30621 /* SPExportFileNameTokenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPExportFileNameTokenObject.h; sourceTree = "<group>"; };
 		582F02301370B52600B30621 /* SPExportFileNameTokenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPExportFileNameTokenObject.m; sourceTree = "<group>"; };
+		583A278D23F06F1000FBE97B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		583CA21312EC8B2200C9E763 /* SPWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWindow.h; sourceTree = "<group>"; };
 		583CA21412EC8B2200C9E763 /* SPWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWindow.m; sourceTree = "<group>"; };
 		584094CC1107BD0500260CFD /* SPAlertSheets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlertSheets.h; sourceTree = "<group>"; };
@@ -1883,6 +1885,7 @@
 				17CC993A10B4C9C80034CD7A /* License.rtf */,
 				17E641F50EF02088001BC333 /* Growl Registration Ticket.growlRegDict */,
 				5885940E0F7AEE6000ED0E67 /* sparkle-public-key.pem */,
+				583A278D23F06F1000FBE97B /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -2892,6 +2895,7 @@
 				58F48AA3161D03C6008536A1 /* quick-connect-icon.pdf in Resources */,
 				58F48B2E161D08C0008536A1 /* quick-connect-icon-white.pdf in Resources */,
 				5843DA6C161FA35600EAA6D1 /* key-icon-alternate.png in Resources */,
+				583A278E23F06F1000FBE97B /* Colors.xcassets in Resources */,
 				5843DA6D161FA35600EAA6D1 /* key-icon-alternate@2x.png in Resources */,
 				5843DA6E161FA35600EAA6D1 /* key-icon.png in Resources */,
 				5843DA6F161FA35600EAA6D1 /* key-icon@2x.png in Resources */,
